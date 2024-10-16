@@ -19,3 +19,14 @@ setTitulo();
 setPrecio();
 console.log(peliculaTitulo);
 console.log(peliculaPrecio);
+
+//concatenacion
+function mostrarPrecio() {
+  let moviePrecio = 65;
+  //concatenacion antes de ES6
+  console.log("El precio de la pelicula es: " + moviePrecio);
+  //concatenacion con ES6
+  console.log(`El precio de la pelicula es: ${moviePrecio}`);
+}
+//llamamos a la funcion para que nos muestre en la consola
+mostrarPrecio();
