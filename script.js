@@ -30,3 +30,10 @@ function mostrarPrecio() {
 }
 //llamamos a la funcion para que nos muestre en la consola
 mostrarPrecio();
+
+//ARROW FUNCTION
+let peliPrecio = 70;
+
+const precio = () => console.log(`El precio de la pelicula es: ${peliPrecio}`);
+
+precio();
