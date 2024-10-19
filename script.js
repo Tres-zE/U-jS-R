@@ -37,3 +37,17 @@ let peliPrecio = 70;
 const precio = () => console.log(`El precio de la pelicula es: ${peliPrecio}`);
 
 precio();
+
+//function map
+//declaramos un array de objetos
+let movies = [
+  { idPelicula: 1, titulo: "dexter" },
+  { idPelicula: 2, titulo: "rodas" },
+  { idPelicula: 3, titulo: "dora" },
+];
+
+const mostrarMovies = (movies) => {
+  movies.map((p) => console.log(p.idPelicula, p.titulo));
+};
+//llamanos a la funcion
+mostrarMovies(movies);
