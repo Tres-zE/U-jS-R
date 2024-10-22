@@ -1,0 +1,9 @@
+.titulo {
+  background: rgb(204, 204, 14);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.explicacion p {
+  text-justify: auto;
+}
